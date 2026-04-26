@@ -35,7 +35,7 @@ function App() {
         minHeight: '100vh',
       }}
     >
-      <Router>
+      <Router basename="/Myportfolio">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
